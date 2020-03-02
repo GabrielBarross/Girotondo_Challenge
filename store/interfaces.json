@@ -1,0 +1,19 @@
+{
+    "b2b-challenge": {
+        "component": "Challenge",
+        "allowed": [
+            "b2b-challenge-accepted",
+            "b2b-challenge-denied"
+        ]
+    },
+    "b2b-challenge-accepted": {
+        "component": "ChildrenRenderer",
+        "composition": "children",
+        "allowed": "*"
+    },
+    "b2b-challenge-denied": {
+        "component": "ChildrenRenderer",
+        "composition": "children",
+        "allowed": "*"
+    }
+}
