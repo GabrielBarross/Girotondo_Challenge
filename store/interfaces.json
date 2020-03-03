@@ -1,19 +1,18 @@
 {
-    "b2b-challenge": {
+    "custom-challenge": {
         "component": "Challenge",
+        "composition": "children",
         "allowed": [
-            "b2b-challenge-accepted",
-            "b2b-challenge-denied"
+            "custom-challenge-accepted",
+            "custom-challenge-denied"
         ]
     },
-    "b2b-challenge-accepted": {
+    "custom-challenge-accepted": {
         "component": "ChildrenRenderer",
-        "composition": "children",
-        "allowed": "*"
+        "composition": "children"
     },
-    "b2b-challenge-denied": {
+    "custom-challenge-denied": {
         "component": "ChildrenRenderer",
-        "composition": "children",
-        "allowed": "*"
+        "composition": "children"
     }
 }

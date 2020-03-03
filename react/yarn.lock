@@ -5481,9 +5481,17 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
+"vtex.css-handles@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.1/public/@types/vtex.css-handles":
+  version "0.4.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.1/public/@types/vtex.css-handles#16fe9485e8e7183b94f28496ed8cdd741c83f227"
+
 "vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.93.1/public/@types/vtex.render-runtime":
   version "8.93.1"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.93.1/public/@types/vtex.render-runtime#b87ad35b37bf797d98367ca793fd1a0e44c09200"
+
+"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.112.5/public/@types/vtex.styleguide":
+  version "9.112.5"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.112.5/public/@types/vtex.styleguide#1428421ae787af80a21f882d251092f2e41760ed"
 
 w3c-hr-time@^1.0.1:
   version "1.0.1"
